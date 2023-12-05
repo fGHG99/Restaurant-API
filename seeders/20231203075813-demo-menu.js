@@ -6,7 +6,7 @@ module.exports = {
     return queryInterface.bulkInsert('Menus', [{
       name: "Chicken Steak",
       description: "Chicken Steak dengan brown sauce",
-      price: 45000,
+      price: 45,
       createdAt: new Date(),
       updatedAt: new Date()
     }]);

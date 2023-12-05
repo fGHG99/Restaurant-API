@@ -1,6 +1,6 @@
 const { findAllMenu, createNewMenu } = require('../controller/menuController')
 const router = require('express').Router()
 
-router.get('/menu', findAllMenu)
-router.post('/menu', createNewMenu)
+router.get('/menus', findAllMenu)
+router.post('/createmenu', createNewMenu)
 module.exports = router
